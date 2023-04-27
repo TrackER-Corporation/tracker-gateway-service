@@ -1,7 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import { connectToDatabase } from './db/services/database.service';
 import { createProxyMiddleware } from 'http-proxy-middleware';
 
 dotenv.config();
@@ -28,13 +27,12 @@ routes.forEach((service_port: any, route: string) => {
     createProxyMiddleware({
       target: `http://localhost:${service_port}`,
       changeOrigin: true,
+      secure: false,
+      pathRewrite: function (path, req) { return path.replace(`/api/${route}`, '') }
     })
   );
-
-
 })
 
-connectToDatabase()
 app.listen(port, () => console.info(`tracker-gateway is running`));
 
 export default app
