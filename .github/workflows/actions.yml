@@ -31,6 +31,13 @@ jobs:
           CI: true
           DB_NAME: ${{ secrets.DB_NAME }}
           DB_CONN_STRING: ${{ secrets.DB_CONN_STRING }}
+          USER_SERVICE: = ${{ secrets.USER_SERVICE }}
+          BUILDINGS_SERVICE: ${{ secrets.BUILDINGS_SERVICE }}
+          BILLS_SERVICE: ${{ secrets.BILLS_SERVICE }}
+          RENEWABLE_SERVICE: ${{ secrets.RENEWABLE_SERVICE }}
+          ORGANIZATION_SERVICE: ${{ secrets.ORGANIZATION_SERVICE }}
+          ACTIVITY_SERVICE: ${{ secrets.ACTIVITY_SERVICE }}
+          PREFERENCE_SERVICE: ${{ secrets.PREFERENCE_SERVICE }}
       - name: Vitest Coverage Report
         uses: davelosert/vitest-coverage-report-action@v1.4.0
         with:
