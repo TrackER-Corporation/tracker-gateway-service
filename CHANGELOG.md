@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/TrackER-Corporation/tracker-gateway-service/compare/v1.1.0...v1.1.1) (2023-05-08)
+
+
+### Bug Fixes
+
+* path rewrite function ([faaba43](https://github.com/TrackER-Corporation/tracker-gateway-service/commit/faaba435f124a000a38a63608fcaad927bd77270))
+
 ## [1.1.0](https://github.com/TrackER-Corporation/tracker-gateway-service/compare/v1.0.0...v1.1.0) (2023-05-02)
 
 
