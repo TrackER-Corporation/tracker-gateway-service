@@ -23,4 +23,9 @@ describe('Gateway api', () => {
         const response = await request(app).get('/api/buildings');
         expect(response.statusCode).toBe(504);
     });
+
+    it('POST /api/buildings returns status code 504', async () => {
+        const response = await request(app).post('/api/buildings');
+        expect(response.statusCode).toBe(504);
+    });
 });
