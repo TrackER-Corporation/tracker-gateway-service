@@ -39,7 +39,7 @@ jobs:
           ACTIVITY_SERVICE: ${{ secrets.ACTIVITY_SERVICE }}
           PREFERENCE_SERVICE: ${{ secrets.PREFERENCE_SERVICE }}
       - name: Vitest Coverage Report
-        uses: davelosert/vitest-coverage-report-action@v1.4.0
+        uses: davelosert/vitest-coverage-report-action@v2.1.1
         with:
           vite-config-path: "./vite.config.ts"
 
