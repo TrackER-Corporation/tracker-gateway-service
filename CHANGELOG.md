@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.2](https://github.com/TrackER-Corporation/tracker-gateway-service/compare/v1.1.1...v1.1.2) (2024-03-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vitejs/plugin-react to v4.0.4 ([c7d5047](https://github.com/TrackER-Corporation/tracker-gateway-service/commit/c7d50473b9e0c3259368268caeb07de3480c485d))
+* **deps:** update dependency dotenv to v16.3.1 ([0f399fe](https://github.com/TrackER-Corporation/tracker-gateway-service/commit/0f399fedb8f09be06cec8721ef563cdbe74731be))
+* **deps:** update dependency express-http-proxy to v2 ([5cf8669](https://github.com/TrackER-Corporation/tracker-gateway-service/commit/5cf866942e353541be1b9533b784937d8c62f5f2))
+* **deps:** update dependency mongodb to v5.7.0 ([44bb1d0](https://github.com/TrackER-Corporation/tracker-gateway-service/commit/44bb1d0b85a27cbb18312477843f3642ba098361))
+* **deps:** update socket.io packages to v4.7.2 ([1912e27](https://github.com/TrackER-Corporation/tracker-gateway-service/commit/1912e27dbeca2157ceabfc5825338443500655d3))
+
 ## [1.1.1](https://github.com/TrackER-Corporation/tracker-gateway-service/compare/v1.1.0...v1.1.1) (2023-05-08)
 
 
